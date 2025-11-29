@@ -6,7 +6,7 @@ long_description = (this_dir / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="simplemathglh",
-    version="0.1.2", 
+    version="0.1.3", 
     description="A simple library for basic math operations.",
     long_description=long_description,
     long_description_content_type="text/markdown",
