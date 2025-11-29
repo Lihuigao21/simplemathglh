@@ -1,0 +1,59 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+env/
+venv/
+ENV/
+.venv/
+.pipenv/
+*.env
+
+# 安装包
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDE 和编辑器生成的文件
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 日志和调试文件
+*.log
+*.out
+*.err
+debug.log
+
+# 单元测试结果
+*.coverage
+*.cover
+.hypothesis/
+
+# 配置文件（可根据需要调整）
+*.ini
+*.cfg
+
+# Jupyter Notebook 的自动检查点
+.ipynb_checkpoints/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.swpx
+*.temp
+*.~*
+
+# 本地或私密配置
+*.env
+.env.*
